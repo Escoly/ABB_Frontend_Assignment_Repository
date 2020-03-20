@@ -1,0 +1,81 @@
+.featureContainer {
+    margin: 4px;
+}
+
+.featureTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 17px;
+    margin: 0;
+    color: white;
+}
+
+.goodState {
+    background-color: rgb(52, 179, 130);
+}
+
+.alertState {
+    background-color: yellow;
+}
+
+.errorState {
+    background-color: red;
+}
+
+
+.featureTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 5px;
+    padding-top: 14px;
+
+}
+
+.featureTitleContainerIcon{
+    max-width: 1.5em;
+    filter: brightness(0) invert(1);
+}
+.okIcon {
+    color: rgb(52, 179, 130);
+}
+
+.alertIcon {
+    color: yellow;
+}
+
+.errorIcon {
+    color: red;
+}
+
+.measuresContainer {
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+.measuresSection {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.controlDataIcon{
+    max-height: 1em;
+}
+
+.controlDataField{
+    padding:10px 20px;
+    color:gray;
+}
+
+.controlDataFieldFlex{
+    display:flex;
+    padding-left: 34px;
+
+}

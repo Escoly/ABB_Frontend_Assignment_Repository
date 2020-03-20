@@ -1,0 +1,25 @@
+.partContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partTitle{
+    display: flex;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    align-self: flex-start;
+    margin: 10px 10px;
+}
+
+.featuresContainer{
+    display: flex;  
+}
+
+@media (max-width: 1480px) {
+    .featuresContainer {
+        flex-direction: column;
+    }
+}
